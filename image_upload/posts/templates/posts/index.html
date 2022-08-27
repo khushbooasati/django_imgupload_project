@@ -1,0 +1,24 @@
+<html>
+  <head>
+  </head>
+
+  <body>
+  <table border="3">
+    
+    <tr>
+      <th>My Name</th>
+      <th>Posts Main Img</th>
+    </tr>
+
+    {% for item in latest_images_list %}
+      <tr>
+        <td><a href="http://127.0.0.1:8000/gadha/home">{{item.osts Main Img}}</a></td>
+        <td>{{item.posts_main_img}}</td>
+      </tr>    
+    {% endfor %}
+
+
+  </table>
+  </body>
+</html>
+
